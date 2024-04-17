@@ -31,6 +31,8 @@ kotlin {
             // TODO Add common test dependencies
         }
     }
+
+    task("testClasses")
 }
 
 android {

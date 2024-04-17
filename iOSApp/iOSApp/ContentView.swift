@@ -11,10 +11,24 @@ import shared
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint) }
-        .padding()
+           Text("Düsseldorf")
+                .font(.title)
+           Text("18 C")
+                .font(.largeTitle)
+           Text("Feels like 14 C")
+                .font(.caption)
+            
+        
+          Text("Today'S Forecast")
+                .font(.subheadline)
+                .fontWeight(.bold)
+          // TODO List of forecast
+          Text("Weekly Forecast")
+                .font(.subheadline)
+                .fontWeight(.bold)
+          // TODO List of forecast
+            
+        }.padding()
     }
 }
 

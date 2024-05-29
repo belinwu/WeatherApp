@@ -30,7 +30,7 @@ buildscript {
 
 versionCatalogUpdate {
     pin {
-        versions.addAll("kotlin-android", "kotlin-serialization", "kotlin", "crashlytics-plugin")
+        versions.addAll("kotlin-android", "crashlytics-plugin")
     }
 }
 

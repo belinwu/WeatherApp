@@ -13,6 +13,7 @@ plugins {
     jacoco
     alias(libs.plugins.firebase.perf.plugin)
     alias(libs.plugins.about.lib.plugin)
+    alias(libs.plugins.compose.compiler)
 }
 
 jacoco {
@@ -160,9 +161,6 @@ android {
     buildFeatures {
         compose = true
         buildConfig = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.9"
     }
     packaging {
         resources {

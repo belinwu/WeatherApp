@@ -10,6 +10,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform) apply false
     alias(libs.plugins.about.lib.plugin) apply false
     alias(libs.plugins.firebase.perf.plugin) apply false
+    alias(libs.plugins.compose.compiler) apply false
 //    TODO Move some of these to toml file
     id("com.github.ben-manes.versions") version "0.41.0"
     id("nl.littlerobots.version-catalog-update") version "0.8.4"
